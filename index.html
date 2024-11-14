@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="just a basic anticheat list">
+    <meta name="author" content="Hezcheats">
+    <meta name="theme-color" content="#FFCOCB">
+    <title>Anticheat-List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+<link href="/gradient.css" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+        html {
+  scroll-behavior: smooth;
+}
+
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            font-family: 'Trebuchet MS';
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .w3rcontainer{
+   border: 1px solid #cccfdb;
+   border-radius: 2px;
+} 
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: rgb(125, 92, 214);
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(244 63 94);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.greyy {
+  background-color: #fdbafd;
+  resize: both;
+  overflow: hidden;
+  border-width: 1;
+  border-color: #ffffff00;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: rgb(244 63 94);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 11;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.headgradient {
+  background: #9663CF;
+  background: linear-gradient(to right, #c48efd, #da6be0, #a93dbe, #e7189e, #dd0076 100%);
+  animation: rainbow_animation 6s ease-in-out infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+background-size: 400% 100%;
+
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #f198f4b0;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+  background: #f198f4b0;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 40px;
+  display: block;
+  font: bold;
+}
+
+.yetanothergray {
+  background-color: #242424;
+}
+
+    </style>
+<body class="bg-gradient-to-br from-purple-200 to-pink-400 text-black cursor-crosshair" style="margin-left: 250px;" id="yes">
+  <center>
+    <div class="mx-20 mb-60 mt-20 rounded-2xl px-10 py-20 w-1/2" style="background-color: rgba(255, 0, 195, 0.166);">
+            <h1 class="text-center text-5xl lg:text-8xl text-white"><span class="headgradient">Anticheat list</span></h1>
+            <div class="h-1 rounded w-full my-5" style="background-color: #ff00f2;"></div>
+            <br>
+            <span class="text-black">Hi!! Skidded from MimHax!!</span>
+            <p class="text-center text-black">This is an anticheat list of the most common anticheat's that support a wide range of Minecraft Java/Bedrock versions!</p>
+            <br>
+            <a href="#nopredict"><button type="button" class="text-white rounded-lg bg-gradient-to-r from-pink-500 to-rose-300 hover:scale-105 shadow-2xl py-3 px-6 text-3xl mt-10 transition-all duration-500">First category!</button></a>
+    </div>
+  </center>
+
+  <div class="sidenav rounded-r-3xl transition-all">
+      <a href="#" class="transition-all duration-500"><h1 class="logo">Anticheat List</h1></a>
+      <a href="#nopredict" class="transition-all duration-500">Non Prediction</a>
+      <a href="#predict" class="transition-all duration-500">Prediction</a>
+      <a href="#unknown" class="transition-all duration-500">Idk</a>
+      <a href="#servers" class="transition-all duration-500">Servers</a>
+      <a href="#vpns" class="transition-all duration-500">Free VPNs</a>
+      <a href="#sugg" class="transition-all duration-500">What Client's to use</a>
+      <a onclick="font()" class="transition-all duration-500">Change Font</a>
+  </div>
+    
+
+    <div class="my-80 mx-5">
+        <h1 class="text-2xl lg:text-5xl text-black text-center" id="nopredict">Basic anticheat's/non prediction</h1>
+        <br>
+
+        <div class = "flex flex-wrap justify-center">
+        <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Updated-NoCheatPlus</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Pretty basic Anticheat and has the essentials to prohibit the most blatant hacks but still lacks compared to modern Anticheat's
+        <br>
+        <br>
+        <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://github.com/Updated-NoCheatPlus/NoCheatPlus">Link</a></button>
+      </div>
+
+      <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Vulcan</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Vulcan is the worst anticheat actually used in 2024 I am not even lying it is so bad but some checks aren't bad I guess :shrug:
+        <br>
+        <br>
+        <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://www.spigotunlocked.com/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-21.175/">Link</a></button>
+      </div>
+      <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">NoCheatPlus</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>NoCheatPlus is a discontinued anticheat that is rarely used anymore. Servers like mospixel use old ncp an even older version!
+        <br>
+        <br>
+        <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://github.com/CaptainObvious0/NoCheatPlus">Link</a></button>
+      </div>
+    </div>
+
+    <div class = "flex flex-wrap justify-center">
+      <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Matrix</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Matrix is a pretty mid Anticheat and a lot of weird bypasses work for some reason
+      <br>
+      <br>
+      <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://matrix.rip">Link</a></button>
+    </div>
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Spartan</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Actually kind of suprised me as a non prediction anticheat it has pretty good checks but if you config right then you can bypass pretty easily!
+      <br>
+      <br>
+      <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://www.spigotmc.org/resources/spartan-anti-cheat-for-java-advanced-anticheat-detection-1-7-1-21.25638/">Link</a></button>
+    </div>
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">AntiGamingChair</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>AGC is kind of just used by Minemen and is pretty mid and isnt even worth using bruh
+      <br>
+      <br>
+      <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://www.blackspigot.com/downloads/antigamingchair-agc.15240/">Link</a></button>
+    </div>
+  </div>
+
+  <div class = "flex flex-wrap justify-center">
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Verus</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Verus is pretty shit and only good at detecting very blatant modules and doesn't focus on stricter bypasses meaning that it's easy to bypass with the right config!
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://verus.ac">Link</a></button>
+  </div>
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+  </div>
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+
+  <div id="predict" class="my-80 mx-5">
+    <h1 class="text-2xl lg:text-5xl text-black text-center">Prediction Anticheat's</h1>
+    
+    <br>
+
+    <div class = "flex flex-wrap justify-center">
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">Intave</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Intave is kind of the best alternative to polar with somewhat "good" checks but has very many exploitable bugs!
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://intave.ac" class="">Link</a></button>
+  </div>
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">Polar</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>The "best" Minecraft Java Anticheat (In my opinion) and has very good checks but has it's bugs and false bans a lot due to it being strict!
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 animate-bounce"><a href="https://polar.top" class="">Link</a></button>
+</div>
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Karhu</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Karhu is pretty good but used to be so exploitable you could literally fly and in my opinion not worth it and would rather buy Intave or Polar if I was in the market for a "good" Anticheat
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://karhu.ac" class="">Link</a></button>
+  </div>
+</div>
+
+<div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">Horizon</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Unknown prediction anticheat found it on eu.loysia.cn (anticheat test server)
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://www.spigotmc.org/resources/horizon-powerful-cheat-detection-in-new-era-1-8-1-12-1-13-1-14-1-20.65830/" class="">Link</a></button>
+</div>
+<div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Grim</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Grim is a pretty decent anticheat atleast for free and has the essentials and is open source
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://grim.ac" class="">Link</a></button>
+</div>
+<div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+</div>
+</div>
+<div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black"></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+</div>
+<div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+<br>
+<br>
+<button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+</div>
+</div>
+</div>
+
+<d id="unknown" class="my-80 mx-5">
+  <h1 class="text-2xl lg:text-5xl text-black text-center">Idk yet</h1>
+  
+  <br>
+
+  <div class = "flex flex-wrap justify-center">
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"><br><span class="bg-rose-500 rounded-full text-white py-1 px-2 text-lg">WIP</span></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="placeholder" class="">Link</a></button>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Website</a></button>
+    </div>
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"><br><span class="bg-rose-500 rounded-full text-white py-1 px-2 text-lg">WIP</span></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="placeholder" class="">Link</a></button>
+    </div>
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"><br><span class="bg-rose-500 rounded-full text-white py-1 px-2 text-lg">WIP</span></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+    <br>
+    <br>
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="placeholder" class="">Link</a></button>
+    </div>
+</div>
+
+<div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"><br><span class="bg-rose-500 rounded-full text-white py-1 px-2 text-lg">WIP</span></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+  </div>
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black"><br><span class="bg-rose-500 rounded-full text-white py-1 px-2 text-lg">WIP</span></h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>WIP
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="" class="">Link</a></button>
+  </div>
+</div>
+
+<div id="servers" class="my-80 mx-5">
+  <h1 class="text-2xl lg:text-5xl text-black text-center">Servers</h1>
+  <br>
+  <a href='/server'><h1 class="text-xl lg:text-3xl text-purple-500 text-center hover:text-indigo-500 transition-all"><U>Click here to check a server's status!</U></h1></a>
+  <br>
+  <br>
+  <div class = "flex flex-wrap justify-center">
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-2 text-black">Hypixel</h1><p>Anticheat: Watchdog</p><p>Suggested client: Vestige V3 / Raven B+</p><img class="rounded-xl" src="https://avatars.githubusercontent.com/u/3840546?s=280&v=4">
+      <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 mt-5" onclick="navigator.clipboard.writeText('mc.hypixel.net'); alert('Copied!')">Copy IP</button>
+    </div>
+
+      <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-2 text-black">BlocksMC</h1><p>Anticheat: Updated NCP</p><p>Suggested client: Vestige V3 / Raven B+</p><img class="rounded-xl" src="https://dl.labymod.net/img/server/blocksmc/icon@2x.png">
+        <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 mt-5" onclick="navigator.clipboard.writeText('blocksmc.com'); alert('Copied!')">Copy IP</button>
+      </div>
+
+      <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-2 text-black">Minemen Club</h1><p>Anticheat: AntiGamingChair</p><p>Suggested client: Raven B+</p><img class="rounded-xl" src="https://i.imgur.com/swEu8L5.png">
+        <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 mt-5" onclick="navigator.clipboard.writeText('minemen.club'); alert('Copied!')">Copy IP</button>
+      </div>
+</div>
+
+<div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-2 text-black">Pika Network</h1><p>Anticheat: Polar</p><p>Suggested client: LB NextGen / Raven B+</p><img class="rounded-xl" src="https://static-cdn.jtvnw.net/jtv_user_pictures/pikanetwork-profile_image-28c823def659775d-300x300.png">
+    <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 mt-5" onclick="navigator.clipboard.writeText('top.pika.host'); alert('Copied!')">Copy IP</button>
+  </div>
+
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-2 text-black">Jartex Network</h1><p>Anticheat: Polar</p><p>Suggested client: LB NextGen / Raven B+</p><img class="rounded-xl" src="https://avatars.githubusercontent.com/u/39830022?s=280&v=4">
+      <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 mt-5" onclick="navigator.clipboard.writeText('top.jartex.fun'); alert('Copied!')">Copy IP</button>
+    </div>
+
+    <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-2 text-black">Cold Network</h1><p>Anticheat: Vulcan</p><p>Suggested client: Vestige V3 / Raven B+</p><img class="rounded-xl" src="https://coldnetwork.net/api/ColdLogo2022.png">
+      <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 mt-5" onclick="navigator.clipboard.writeText('play.coldnetwork.net'); alert('Copied!')">Copy IP</button>
+    </div>
+</div>
+</div>
+
+
+
+<div id="vpns" class="my-80 mx-5">
+  <h1 class="text-2xl lg:text-5xl text-black text-center">Free VPNs</h1>
+  
+  <br>
+
+  <div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">Proton VPN</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Proton VPN is a popular free VPN service.
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://protonvpn.com/" class="">Website</a></button>
+</div>
+<div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">SoftEther</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>SoftEther is a different kind of VPN. It emulates an ethernet connection with the help of the software. It is known to bypass a lot of antivpns on servers.
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://www.softether.org/" class="">Website</a></button>
+</div>
+</div>
+</div>
+
+<div id="sugg" class="my-80 mx-5">
+  <h1 class="text-2xl lg:text-5xl text-black text-center">Client Suggestions</h1>
+  
+  <br>
+
+  <div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">Forge Ghost</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Raven B+ is the best forge ghost client for Minecraft till date. It is stable and reliable and is pretty popular among Hypixel players.
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://github.com/Kopamed/Raven-bPLUS" class="">Link</a></button>
+</div>
+<div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Hypixel client</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Raven bS is the best free hypixel client (tho I wouldn't use any free hypixel clients!)
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://github.com/Strangerrrs/Raven-bS/releases" class="">Link</a></button>
+</div>
+<div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xl"><h1 class="text-2xl mb-5 text-black">Forge Blatant</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Liquidbounce client is the best forge blatant client. It is the most trusted out of all the clients on MimHax and is well supported by community made scripts.
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://liquidbounce.net" class="">Link</a></button>
+</div>
+</div>
+
+<div class = "flex flex-wrap justify-center">
+  <div class="w-full lg:w-3/12 sm:w-full md:w-full h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">Standalone Blatant</h1><div class="h-0.5 rounded w-full" style="background-color: #5f5f5f;"></div>Vestige V3 is the best free blatant client ever. It is a great multiserver client and is now open-source.
+  <br>
+  <br>
+  <button class="transition-all px-5 py-1.5 text-white bg-gradient-to-r from-pink-500 to-rose-300 rounded hover:scale-105 duration-500 "><a href="https://workupload.com/file/tFpgua6Jqgv" class="">Website</a></button>
+</div>
+</div>
+
+</div>
+
+
+<div id="supp" class="my-80 mx-5">
+  <h1 class="text-2xl lg:text-5xl text-black text-center">Supporters</h1>
+  
+  <br>
+<center>
+  <div class="w-4/5 h-auto greyy py-5 px-5 text-lg text-center transition-all duration-500 mx-5 my-5 rounded-xl text-black hover:scale-105 shadow-lg hover:shadow-xlmd:w-100"><h1 class="text-2xl mb-5 text-black">A huge thanks to the people below for support!! ❤️</h1><br><ul>
+    <li><span class="text-xl">My subs!!</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+    <li><span class="text-xl">me</span></li>
+  </ul>
+</center>
+</div>
+
+
+<script>
+  let y;
+
+  function font() {
+    document.getElementById("yes").style.fontFamily = prompt("Which Font?");
+  }
+
+</script>
+</body>
+</html>
